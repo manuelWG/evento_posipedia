@@ -1,6 +1,6 @@
 const express = require("express");
 const bodyParser = require("body-parser");
-const sqlite3 = require("sqlite3").verbose();
+const sqlite3 = require("better-sqlite3").verbose();
 const path = require("path");
 
 // Configuración del servidor
